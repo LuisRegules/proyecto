@@ -11,4 +11,5 @@ class servicios extends Model
     protected $primaryKey = 'id_servicio';  
     protected $fillable=['id_servicio','descripcion','foto_servicio','activo'];
     protected $date=['deleted_at'];
+    
 }
